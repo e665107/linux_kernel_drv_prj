@@ -1,0 +1,30 @@
+* project
+thousand drivers development and test
+** use
+1. cd /hello
+2. make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-
+3. cp hello.ko /home/e66/nfs_root/
+** cmds
+insmod hello.ko
+lsmod
+modprobe hello
+modprobe -r hello
+modinfo hello
+** drivers
+*** uio
+1. 
+   + 
+   + 
+   + 
+   + 
+   + 
+2. 
+3. 
+4. 
+5. 
+*** 
+*** 
+*** 
+*** 
+*** 
+** 
