@@ -10,7 +10,7 @@ lsmod
 modprobe hello
 modprobe -r hello
 modinfo hello
-** TODO drivers [20%]
+** TODO drivers [24%]
 *** DONE hello
 CLOSED: [2021-10-16 六 19:14]
 *** TODO access_file_in_module
@@ -24,7 +24,8 @@ CLOSED: [2021-10-16 六 22:43]
 CLOSED: [2021-10-16 六 22:43]
 *** DONE waitqueue
 CLOSED: [2021-10-17 日 20:34]
-*** TODO dedicated_workqueue
+*** DONE dedicated_workqueue
+CLOSED: [2021-10-17 日 21:49]
 *** TODO device_packaged_data
 *** TODO dynamic_register
 *** TODO export_symbol
