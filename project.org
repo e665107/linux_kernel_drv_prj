@@ -10,21 +10,39 @@ lsmod
 modprobe hello
 modprobe -r hello
 modinfo hello
-** drivers
-*** uio
-1. 
-   + 
-   + 
-   + 
-   + 
-   + 
-2. 
-3. 
-4. 
-5. 
-*** 
-*** 
-*** 
-*** 
-*** 
+** TODO drivers [20%]
+*** DONE hello
+CLOSED: [2021-10-16 六 19:14]
+*** TODO access_file_in_module
+*** TODO auto_make_node
+*** TODO char_drv
+*** DONE timer
+CLOSED: [2021-10-16 六 19:58]
+*** DONE hrtimer
+CLOSED: [2021-10-16 六 22:43]
+*** DONE kthread
+CLOSED: [2021-10-16 六 22:43]
+*** DONE waitqueue
+CLOSED: [2021-10-17 日 20:34]
+*** TODO dedicated_workqueue
+*** TODO device_packaged_data
+*** TODO dynamic_register
+*** TODO export_symbol
+*** TODO framework
+*** TODO ioctl
+*** TODO kprobe
+*** TODO lock
+*** TODO lseek
+*** TODO mmap
+*** TODO multiplexing
+*** TODO printk_message_level
+*** TODO private_data
+*** TODO uio
+*** TODO user_kernel_data_access
+*** TODO 
+*** TODO 
 ** 
+
+
+
+

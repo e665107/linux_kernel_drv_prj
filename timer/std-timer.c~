@@ -1,0 +1,35 @@
+/*
+ * a simple kernel module: timer
+ *
+ * Licensed under GPLv2 or later.
+ */
+#include <linux/init.h>
+#include <linux/module.h>
+
+
+
+
+static int __init timer_init(void)
+{
+        printk(KERN_INFO "timer module loaded!\n");
+        return 0;
+}
+
+module_init(timer_init);
+
+static void __exit timer_exit(void)
+{
+        printk(KERN_INFO "timer exit\n ");
+}
+
+
+module_exit(timer_exit);
+
+MODULE_AUTHOR("e665106");
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("A simple timer Module");
+MODULE_ALIAS("a simplest module"); 
+
+
+
+
